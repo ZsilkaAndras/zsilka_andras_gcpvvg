@@ -1,0 +1,354 @@
+body {
+	font-size: 16px;
+	font-family: 'Roboto Slab', serif;
+
+	display: grid;
+	grid-template-areas:
+		"head"
+		"content"
+		"foot"
+	;
+	grid-template-rows: max-content 1fr max-content;
+}
+
+*, *::before, *::after{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+header {
+	grid-area: head;
+	;
+}
+
+h1 {
+	background-color: orange;
+	border-radius: 2rem;
+	margin-left: 3%;
+	margin-top: 3%;
+	margin-right: 3%;
+	padding-left: 2rem;
+	padding-bottom: 1rem;
+	padding-top: 1rem;
+}
+
+.menu {
+	padding: 0.5rem;
+	background-color: #330000;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+	grid-gap: 2rem;
+	user-select: none;
+}
+
+.home {
+	font-size: 1.2rem;
+	display: inline-block;
+	background-color: orange;
+	cursor: pointer;
+	border-radius: 2rem;
+	padding: 0.7rem;
+	user-select: none;
+	margin-left: 8%;
+	margin-right: 1%;
+	text-align: center;
+}
+
+.home:hover {
+	background-color: white;
+	transition: 0.8s;
+}
+
+.port {
+	font-size: 1.2rem;
+	display: inline-block;
+	background-color: orange;
+	cursor: pointer;
+	border-radius: 2rem;
+	padding: 0.7rem;
+	user-select: none;
+	margin-right: 1%;
+	text-align: center;
+}
+
+.port:hover {
+	background-color: white;
+	transition: 0.8s;
+}
+
+.free {
+	font-size: 1.2rem;
+	display: inline-block;
+	background-color: orange;
+	cursor: pointer;
+	border-radius: 2rem;
+	padding: 0.7rem;
+	user-select: none;
+	margin-right: 1%;
+	text-align: center;
+}
+
+.free:hover {
+	background-color: white;
+	transition: 0.8s;
+}
+
+.bts {
+	font-size: 1.2rem;
+	display: inline-block;
+	background-color: orange;
+	cursor: pointer;
+	border-radius: 2rem;
+	padding: 0.7rem;
+	user-select: none;
+	margin-right: 9%;
+	text-align: center;
+}
+
+.bts:hover {
+	background-color: white;
+	transition: 0.8s;
+}
+
+.mome {
+	font-size: 1rem;
+	margin-top: 4rem;
+	background-color: orange;
+	padding: 1rem 1rem 1rem 3rem;
+	cursor: pointer;
+	margin-bottom: 1rem;
+}
+
+.gep {
+	font-size: 1rem;
+	background-color: gold;
+	padding: 1rem 1rem 1rem 3rem;
+	cursor: pointer;
+	margin-bottom: 1rem;
+}
+
+.fes {
+	font-size: 1rem;
+	background-color: orange;
+	padding: 1rem 1rem 1rem 3rem;
+	cursor: pointer;
+	margin-bottom: 1rem;
+}
+
+.forsz {
+	font-size: 1rem;
+	background-color: gold;
+	padding: 1rem 1rem 1rem 3rem;
+	cursor: pointer;
+	margin-bottom: 1rem;
+}
+
+.forma {
+	font-size: 1rem;
+	background-color: orange;
+	padding: 1rem 1rem 1rem 3rem;
+	cursor: pointer;
+	margin-bottom: 1rem;
+}
+
+footer {
+	grid-area: foot;
+}
+
+.initiate {
+	font-size: 72px;
+	margin-left: 10%;
+	margin-top: 5%;
+}
+
+header img {
+	display: block;
+	margin-top: -9%;
+	margin-left: 61%;
+	margin-bottom: 1%;
+}
+
+header p {
+	font-size: 1rem;
+	line-height: 2rem;
+	background-color: orange;
+	margin-top: -15%;
+	margin-left: 8%;
+	margin-right: 70%;
+	margin-bottom: 10%;
+	min-width: max-content;
+	padding: 1rem
+}
+
+main {
+	grid-area: content;
+}
+
+span {
+	font-size: 30px;
+}
+
+.radiusb {
+	border-radius: 50%
+}
+
+.smallerimage {
+	width: 31%;
+}
+
+.intro {
+	margin-left: 3%;
+	margin-top: 3%;
+	margin-right: 3%;
+	margin-bottom: 8%;
+	padding-left: 2rem;
+	padding-bottom: 1rem;
+	padding-right: 2rem;
+	padding-top: 1rem;
+}
+
+
+.bigimage {
+	width: 80%;
+	border-radius: 12px;
+}
+
+.cimek {
+	padding-left: 32px;
+}
+
+p img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 12px;
+}
+
+.endingimage {
+	margin-top: 5rem;
+	max-width: 100%
+}
+
+.lay5 {
+	display: block;
+	padding-top: 24px;
+	padding-bottom: 24px;
+}
+
+.lay4 {
+	display: block;
+	padding-top: 24px;
+	padding-bottom: 24px;
+}
+
+.lay3 {
+	display: block;
+	padding-bottom: 24px;
+	margin-bottom: 2rem;
+}
+
+.lay2 {
+	display: block;
+	padding-top: 24px;
+	padding-bottom: 24px;
+	margin-bottom: 2rem;
+}
+
+.lay1 {
+	display: block;
+	padding-top: 24px;
+	padding-bottom: 24px;
+	margin-bottom: 2rem;
+}
+
+p {
+	margin-left: 3%;
+	margin-right: 3%;
+	font-size: 16px;
+	font-family: 'Roboto Slab', serif;
+	background-color: orange;
+	border-radius: 32px;
+
+}
+
+.szabadido {
+	font-size: 1rem;
+	margin-top: 4rem;
+	padding: 1rem 2rem 2rem 2rem;
+	margin-bottom: 5rem;
+}
+
+.sz1 {
+	margin-top: 2rem;
+	max-width: 60%;
+}
+
+.sz2 {
+	max-width: 60%;
+}
+
+.sz3 {
+	max-width: 60%;
+}
+
+.sz4 {
+	max-width: 60%;
+}
+
+.sz5 {
+	max-width: 60%;
+}
+
+.sz6 {
+	max-width: 60%;
+}
+
+.terv1 {
+	margin-top: 1rem;
+	max-width: 60%;
+	margin-bottom: 1rem;
+}
+
+.terv2 {
+	max-width: 60%;
+	margin-bottom: 1rem;
+}
+
+.terv3 {
+	max-width: 60%;
+	margin-bottom: 1rem;
+}
+
+.terv4 {
+	max-width: 60%;
+	margin-bottom: 1rem;
+}
+
+.tervek {
+	font-size: 2rem;
+	margin-top: 4rem;
+	padding: 1rem 1rem 1rem 2rem;
+	margin-bottom: 1rem;
+}
+
+.megjegyzesek {
+	font-size: 1rem;
+	padding: 1rem 1rem 2rem 2rem;
+	margin-bottom: 1rem;
+}
+
+.forras {
+	font-size: 1rem;
+	padding: 1rem 1rem 2rem 2rem;
+	margin-bottom: 5rem;
+}
